@@ -7,7 +7,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
         with:
-          python-version: 3.9.2
+          python-version: 3.7
       - run: echo Tester works
       - run: echo "Petruca Flavius"
       - run: python3 src/py.py
