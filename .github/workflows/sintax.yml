@@ -13,4 +13,4 @@ jobs:
       - run: python3 src/py.py 50000 2
       - run: python3 src/py.py 3000 432
       - run: python3 src/py.py 260000 500000000
-      - run: python3 src/py.py string 2
+      - run: python3 src/py.py -500000232 -54234232
