@@ -8,15 +8,9 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.7
-      - name: PRINT NUME
-          - run: echo "Petruca Flavius"
-      - name: TEST1
-          - run: python3 src/py.py 1 2
-      - name: TEST2 (float instead of Int)
-          - run: python3 src/py.py 50000.3 2
-      - name: TEST3
-          - run: python3 src/py.py 3000 + 432
-      - name: TEST 4 (without parameters)
-          - run: python3 src/py.py 
-      - name: TEST 5  (string instead of Int)
-          - run: python3 src/py.py string 2
+      - run: echo "Petruca Flavius"
+      - run: python3 src/py.py 1 2
+      - run: python3 src/py.py 50000.3 2
+      - run: python3 src/py.py 3000 432
+      - run: python3 src/py.py 
+      - run: python3 src/py.py string 2
