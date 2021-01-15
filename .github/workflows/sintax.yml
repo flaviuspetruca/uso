@@ -9,7 +9,7 @@ jobs:
         with:
           python-version: 3.7
       - name: PRINT NUME
-          run: echo "Petruca Flavius"
+          - run: echo "Petruca Flavius"
       - name: TEST1
           - run: python3 src/py.py 1 2
       - name: TEST2 (float instead of Int)
@@ -19,4 +19,4 @@ jobs:
       - name: TEST 4 (without parameters)
           - run: python3 src/py.py 
       - name: TEST 5  (string instead of Int)
-          - run: python3 src/py.py string 2 
+          - run: python3 src/py.py string 2
