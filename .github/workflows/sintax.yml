@@ -10,6 +10,6 @@ jobs:
           python-version: 3.7
       - run: echo Tester works
       - run: echo "Petruca Flavius"
-      - run: python3 src/py.py
+      - run: python3 src/py.py 1 2
 
       
